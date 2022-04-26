@@ -181,7 +181,7 @@ CREATE TABLE `member` (
   `mem_id` int(11) NOT NULL,
   `firstname` varchar(50) NOT NULL,
   `lastname` varchar(50) NOT NULL,
-  `username` varchar(30) NOT NULL,
+  `mobilenumber` varchar(30) NOT NULL,
   `email` varchar(25) NOT NULL,
   `password` varchar(12) NOT NULL,
   `profile` varchar(255) NOT NULL,
@@ -192,7 +192,7 @@ CREATE TABLE `member` (
 -- Dumping data for table `member`
 --
 
-INSERT INTO `member` (`mem_id`, `firstname`, `lastname`, `username`, `email`, `password`, `profile`, `product`) VALUES
+INSERT INTO `member` (`mem_id`, `firstname`, `lastname`, `mobilenumber`, `email`, `password`, `profile`, `product`) VALUES
 (14, 'user', 'user', 'user', 'user@email.com', 'user', 'default.jpg', ''),
 (16, 'John', 'Smith', 'jsmith', 'jsmith@sample.com', 'jsmith', '1620441477.png', '');
 
